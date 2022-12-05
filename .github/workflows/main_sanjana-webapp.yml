@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'sanjana-webapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B5DD25D3E7CE4F1993FA0E2138A7147B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_68DB4CBE4505406FBFA7C0A8AB9EB0CC }}
           package: '*.jar'
